@@ -257,4 +257,25 @@ input:checked + label .description {
     text-align: center;
   }
 
-
+/* Mobile devices (max-width: 480px) */
+@media only screen and (max-width: 480px) {
+    body {
+      font-size: 14px;
+    }
+    header {
+      padding: 0.5em;
+    }
+    nav ul {
+      flex-direction: column;
+    }
+    nav li {
+      margin-right: 0;
+    }
+    .wrapper {
+      flex-direction: column;
+    }
+    .card {
+      width: 100%;
+    }
+  }
+  
